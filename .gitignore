@@ -27,17 +27,11 @@ Thumbs.db
 *.log
 
 ########################################
-# Docker
-########################################
-docker-compose.override.yml
-
-########################################
 # Terraform (CRITICAL)
 ########################################
 **/.terraform/
 *.tfstate
 *.tfstate.*
-.terraform.lock.hcl
 crash.log
 crash.*.log
 
@@ -48,9 +42,3 @@ crash.*.log
 .env.*
 *.pem
 *.key
-
-########################################
-# Node / Misc (safe to ignore)
-########################################
-node_modules/
- -
