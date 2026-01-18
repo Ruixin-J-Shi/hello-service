@@ -14,11 +14,11 @@ curl http://<PUBLIC_IP>:8080/api/hello/Ruixin
 ```
 
 # build & run locally
-
+````
 ./mvnw clean package
 docker build -t hello-service .
 docker run -p 8080:8080 hello-service
-
+````
 # repo-structure
 ```
 .
